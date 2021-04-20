@@ -1,0 +1,483 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        /* <<<<<<<<<<< Side Left >>>>>>>>>> */
+        
+        .menu_section {
+            width: 20%;
+            height: 100vh;
+            float: left;
+            background-color: #007789;
+            position: fixed;
+            left: 0%;
+            top: 0%;
+        }
+        
+        .short_info img {
+            width: 155px;
+            height: 155px;
+            border-radius: 100%;
+            border: 2px solid black;
+            position: absolute;
+            top: 30%;
+            left: 20%;
+        }
+        
+        .short_info .P_Effect {
+            width: 100%;
+            height: 125px;
+            background-color: #004872;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+        
+        .short_info {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+        }
+        
+        .short_info a {
+            color: black;
+            font-weight: 300;
+            text-decoration: none;
+        }
+        
+        .short_info ul {
+            position: absolute;
+            top: 35%;
+            left: 25%;
+            /* background-color: red; */
+        }
+        
+        .short_info ul li {
+            margin: 5px;
+            padding-top: 10px;
+            list-style-type: none;
+            overflow: hidden;
+            height: 30px;
+        }
+        
+        .short_info li:hover a {
+            color: white;
+            transition: 0.4s;
+        }
+        
+        .short_info li:hover i {
+            color: white;
+            transition: 0.4s;
+        }
+        
+        .short_info li:hover:before {
+            content: ' [ ';
+            font-weight: 700;
+            transition: 1s;
+        }
+        
+        .short_info li:hover:after {
+            content: ' ] ';
+            font-weight: 700;
+            transition: 1s;
+        }
+        
+        .icon_section {
+            width: 100%;
+            font-size: 30px;
+            margin: 0 25px;
+        }
+        
+        .icon_section span i {
+            margin-top: 600px;
+            margin-left: 15px;
+        }
+        /* <<<<<<<<<<< Side Right >>>>>>>>>> */
+        
+        .content_section {
+            width: 80%;
+            height: 100vh;
+            margin: auto;
+            float: right;
+            background-image: linear-gradient(to right top, #051937, #004872, #007e9e, #00b5ae, #12eba0);
+        }
+        
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            margin-top: 300px;
+        }
+        /* <<<<<<<<<<< About >>>>>>>>>> */
+        
+        .content_section h2 {
+            font-size: 40px;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-bottom: 10px;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .content_section p {
+            font-size: 24px;
+            text-indent: 10%;
+            padding: 0 20px;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .info_about h2 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 40px;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .info_about p {
+            font-size: 25px;
+            margin: 20px 0;
+            padding-top: 20px;
+            font-family: 'Lato', sans-serif;
+        }
+        /* <<<<<<<<<<< Skill >>>>>>>>>> */
+        
+        .skil {
+            margin-top: 30px;
+            margin-left: 150px;
+            box-sizing: border-box;
+        }
+        
+        .skil h3 {
+            font-size: 25px;
+            text-align: 100px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .Bar {
+            width: 80%;
+            height: 20px;
+            border-radius: 6px;
+            background-color: #62507D;
+            display: inline-block;
+        }
+        
+        .bar_over1 {
+            width: 90%;
+            height: 20px;
+            border-radius: 6px;
+            background-color: #C88DBE;
+        }
+        
+        .bar_over2 {
+            width: 80%;
+            height: 20px;
+            border-radius: 6px;
+            background-color: #C88DBE;
+        }
+        
+        .bar_over3 {
+            width: 50%;
+            height: 20px;
+            border-radius: 6px;
+            background-color: #C88DBE;
+        }
+        
+        .bar_over4 {
+            width: 60%;
+            height: 20px;
+            border-radius: 6px;
+            background-color: #C88DBE;
+        }
+        
+        .bar_over5 {
+            width: 85%;
+            height: 20px;
+            border-radius: 6px;
+            background-color: #C88DBE;
+        }
+        
+        .bar_over6 {
+            width: 75%;
+            height: 20px;
+            border-radius: 6px;
+            background-color: #C88DBE;
+        }
+        /* <<<<<<<<<<< Portfolio >>>>>>>>>> */
+        
+        h2 {
+            font-size: 40px;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-bottom: 30px;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .Gallery {
+            width: 90%;
+            margin: auto;
+        }
+        
+        .Photos {
+            width: 30%;
+            height: 250px;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            float: left;
+            background-color: black;
+        }
+        /* <<<<<<<<<<< Education >>>>>>>>>> */
+        
+        h2 {
+            font-size: 40px;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-bottom: 30px;
+            font-family: 'Lato', sans-serif;
+        }
+        /* .Edu_box {} */
+        
+        .Edu_content {
+            width: 70%;
+            margin: auto;
+            padding: 20px 30px;
+            border-radius: 20px 20px;
+            text-align: left;
+            margin-bottom: 30px;
+            background: linear-gradient(to right, #241c6d, #022e285e, #221b66);
+            box-shadow: 0px 0px 5px 0px cadetblue;
+        }
+        
+        .Edu_box .Edu_content i {
+            color: black;
+            font-size: 20px;
+            padding-right: 10px;
+        }
+        
+        .Edu_content h5 {
+            color: white;
+            font-size: 20px;
+            padding-right: 10px;
+        }
+        
+        .Edu_content h4 {
+            font-size: 20px;
+            font-weight: 300;
+            margin: 15px 0 0 30px;
+            font-family: 'Lato', sans-serif;
+            color: white;
+        }
+        
+        .Edu_box .Edu_content p {
+            text-align: left;
+            margin: 15px 0 0 10px;
+            text-indent: 0%;
+            font-size: 18px;
+            color: white;
+        }
+        
+        .Edu_box a {
+            color: rgb(102, 255, 0);
+            font-weight: 600;
+        }
+        /* <<<<<<<<<<< Contact Us >>>>>>>>>> */
+        
+        .contact_box {
+            width: 100%;
+            height: 500px;
+            margin: auto;
+            float: left;
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+        .contact_info {
+            font-family: 'Noto Sans', sans-serif;
+            margin: auto;
+            font-size: 15px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 50%;
+            outline: none;
+            box-shadow: 0 0 2px 0px lightslategray;
+            border: 1px solid gray;
+        }
+        
+        .btn2 a {
+            text-decoration: none;
+        }
+        
+        .btn2 {
+            width: 25%;
+            background-color: orange;
+            cursor: pointer;
+        }
+        
+        .btn2:hover {
+            background-color: #27ae60;
+        }
+        /* ___________________Media Query_________________________ */
+        
+        div {
+            display: block;
+        }
+        
+        @media screen and (max-width:425px) {
+            .menu_section {
+                width: 100%;
+                position: relative;
+            }
+            .P_Effect img {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 50%;
+                left: 35%;
+                margin: auto;
+            }
+            .short_info {
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 12px;
+            }
+            .short_info a {
+                color: black;
+                font-weight: 400;
+                text-decoration: none;
+            }
+            .short_info ul {
+                width: 100%;
+                position: absolute;
+                top: 20%;
+                left: 0%;
+                background-color: rgba(119, 136, 153, 0.726);
+            }
+            .short_info ul li {
+                margin: 5px;
+                padding-top: 5px;
+                list-style-type: none;
+                overflow: hidden;
+                height: 30px;
+            }
+            .short_info #sidebar {
+                width: 30%;
+                height: 130vh;
+                position: fixed;
+                transition: 2s;
+            }
+            button {
+                position: fixed;
+                transform: rotate(270deg);
+                color: black;
+                background-color: yellow;
+                border: none;
+                font-size: 15px;
+            }
+            .btn {
+                width: 70px;
+                height: 25px;
+                position: absolute;
+                border: none;
+                right: -42%;
+                top: 30%;
+            }
+            .icon_section {
+                width: 100%;
+                margin: auto;
+                padding-left: 50px;
+                font-size: 30px;
+            }
+            .icon_section span i {
+                margin-top: 90vh;
+                margin-left: 15px;
+            }
+            .menu_section #mob_top,
+            h1 {
+                font-size: 25px;
+                margin: auto;
+                position: absolute;
+                top: 50%;
+                left: 20%;
+            }
+            .content_section {
+                width: 100%;
+            }
+            #non {
+                display: none;
+            }
+            .content_section h2 {
+                font-size: 25px;
+            }
+            .content_section p {
+                font-size: 15px;
+                text-indent: 10%;
+                padding: 0 15px;
+            }
+            .content_section .info_about h2 {
+                padding-top: 50px;
+                font-size: 25px;
+                margin: auto;
+            }
+            .content_section .info_about p {
+                text-align: left;
+                font-size: 15px;
+                margin: 10px 0px;
+                padding-top: 10px;
+            }
+            .content_section .skil {
+                width: 100%;
+                margin: auto;
+                margin-top: 15px;
+                margin-left: 30px;
+                box-sizing: border-box;
+            }
+            .content_section .skil h3 {
+                font-size: 15px;
+                text-align: 100px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                font-family: 'Lato', sans-serif;
+            }
+            .content_section .Gallery {
+                width: 100%;
+                margin: auto;
+            }
+            .content_section .Gallery .Photos {
+                width: 80%;
+                float: left;
+                margin-left: 30px;
+            }
+            .content_section .Edu_box {
+                width: 100%
+            }
+            .content_section .Edu_content {
+                margin: auto;
+                margin-bottom: 10px;
+            }
+            .Edu_box .Edu_content i {
+                color: black;
+                font-size: 20px;
+                padding-right: 10px;
+            }
+            .Edu_content h5 {
+                color: white;
+                font-size: 15px;
+                padding-right: 5px;
+            }
+            .Edu_content h4 {
+                font-size: 15px;
+                font-weight: 300;
+                margin: 5px 0 0 30px;
+                font-family: 'Lato', sans-serif;
+                color: white;
+            }
+            .Edu_box .Edu_content p {
+                text-align: left;
+                margin: 5px 0 0 15px;
+                text-indent: 0%;
+                font-size: 15px;
+                color: white;
+            }
+        }

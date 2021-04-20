@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,300;1,700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu_section">
+        <div class=" short_info">
+            <div class="P_Effect">
+                <img src="img/IMG_9459_edit.jpg" alt="MItul Patel">
+            </div>
+            <div id="sidebar">
+                <ul>
+
+                    <li><a href="#"><i class="fas fa-home"></i> HOME</a></li>
+                    <li><a href="#"><i class="fas fa-briefcase"></i> ABOUT</a></li>
+                    <li><a href="#"><i class="fas fa-cog fa-spin"></i> SKILLS</a></li>
+                    <li><a href="#"><i class="fas fa-briefcase"></i> PORTFOLIO</a></li>
+                    <li><a href="#"><i class="fas fa-user-graduate"></i> RESUME</a></li>
+                    <li><a href="#"><i class="fab fa-weixin"></i> CONTACT</a> </li>
+
+                </ul>
+
+                <button class="btn" id="sidebtn" type="button" onclick="btnclick()">Details</button>
+
+            </div>
+            <script>
+                function btnclick() {
+
+                    var a = document.getElementById("sidebtn").innerText;
+                    if (a == "open") {
+                        document.getElementById("sidebar").style.left = "0";
+                        document.getElementById("sidebtn").innerText = "Details";
+
+                    } else {
+                        document.getElementById("sidebar").style.left = "-30%";
+                        document.getElementById("sidebtn").innerText = "open";
+                    }
+
+                }
+            </script>
+        </div>
+        <div class="icon_section">
+            <span><i class="fab fa-facebook " style="color: blue;"></i></span>
+            <span><i class="fab fa-linkedin-in" style="color: blue;"></i> </span>
+            <span><i class="fab fa-github"  style="color: black;"> </i> </span>
+            <span><i class="fab fa-instagram" style="color: #FE299A;"></i> </span>
+        </div>
+
+    </div>
+    <section>
+        <div class="content_section">
+
+            <h1 id="mob_top">Hello i'm Mitul Patel</h1>
+        </div>
+    </section>
+
+    <section id="three">
+        <div class="content_section">
+            <h2>Who am i..?</h2>
+            <p>
+                Hello I am Mitul Patel a UI/UX Designer & Web Developer.I'm able to handle multiple task on a daily basis. And I'm always enthused about my work . I am always eager to learn new skills .</p>
+
+            <div class="info_about">
+                <h2>Personal Information :</h2>
+                <p>Birthday: 6th-Jun-1997</p>
+                <p>Phone: +91-9898869411</p>
+                <p>City: Vadodara, Gujarat(391440), India.</p>
+                <p>Age: 23</p>
+                <p>Email: arpit221998@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="content_section">
+            <h2><i class="fas fa-cog fa-spin"></i> Skills :</h2>
+            <p>I have Personal Skills like Creative Ideology,Project Time Managment, Team work, Fast Learning skills, Networking Skills, Good Communication Skill and also Multi-tasking abilities.</p>
+
+            <div class="skil">
+                <h3>HTML</h3>
+                <div class="Bar">
+                    <div class="bar_over1"></div>
+                </div>
+                <h3>CSS</h3>
+                <div class="Bar">
+                    <div class="bar_over2"></div>
+                </div>
+                <h3>JAVA Script</h3>
+                <div class="Bar">
+                    <div class="bar_over3"></div>
+                </div>
+                <h3>.NET</h3>
+                <div class="Bar">
+                    <div class="bar_over4"></div>
+                </div>
+                <h3>Bootstrap</h3>
+                <div class="Bar">
+                    <div class="bar_over5"></div>
+                </div>
+                <h3>Jquery</h3>
+                <div class="Bar">
+                    <div class="bar_over6"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="content_section">
+            <h2><i class="fas fa-briefcase"></i> Portfolio :</h2>
+            <div class="Gallery">
+                <div class="Photos"></div>
+                <div class="Photos"></div>
+                <div class="Photos"></div>
+                <div class="Photos"></div>
+                <div class="Photos"></div>
+                <div class="Photos"></div>
+
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="content_section">
+            <h2><i class="fas fa-user-graduate"></i> Education :</h2>
+            <div class="Edu_box">
+                <div class="Edu_content">
+                    <h5><i class="far fa-calendar-alt "> </i> 2017 - 2019</h5>
+                    <h4> Diploma in Information Technology</h4>
+                    <p><a href="https://www.paruluniversity.ac.in/" target="_blank"><em>Parul University</em></a><em>, Waghodiya.</em></p>
+                </div>
+                <div class="Edu_content">
+                    <h5><i class="far fa-calendar-alt "></i> 2012 - 2013</h5>
+                    <h4> Gujarat Secondary Board, Gujarat (Gujarati Medium)</h4>
+                    <p><a href="https://padra.zenschools.org/" target="_blank"><em>Zen School</em></a><em>, Padra.</em></p>
+                </div>
+                <div class="Edu_content">
+                    <h5><i class="far fa-calendar-alt "></i> 2015 (Additional Qualification) </h5>
+                    <h4> Shree Parantap Institute Of CNC Programming</h4>
+                    <p><a href="http://parantapcnc.com/" target="_blank"><em>Paranpat Institute</em></a><em>, Vadodara.</em></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="content_section">
+            <h2><i class="fab fa-weixin"></i> Contact :</h2>
+            <div class="contact_box">
+
+                <div><input class="contact_info" type="text" placeholder="Name"></div>
+                <div><input class="contact_info" type="text" placeholder="Subject"></div>
+                <div><input class="contact_info" type="email" placeholder="Email"></div>
+                <textarea rows="5" placeholder="Message" class="contact_info"></textarea>
+                <div><button id="submit_btn" class="contact_info btn2"><a href="#" target="_blank">Submit </a></button></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
